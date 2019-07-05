@@ -1,13 +1,13 @@
 {
-  "name": "projects",
+  "name": "IoT with Arduino and web",
   "version": "1.0.0",
-  "description": "",
+  "description": "Control Arduino through serial port communication (serial.js). The arduino is turned on by sending the word "austyno" as command to the the serial js server through websocket.",
   "main": "serial.js",
   "scripts": {
     "start": "node serial.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ewurum Agustine Chukwudi",
   "license": "ISC",
   "dependencies": {
     "serialport": "^7.1.5",
